@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+
+    font-family: "Platypi", serif;
+    font-optical-sizing: auto;
+    font-weight: 10px;
+    font-style: normal;
+
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: #ffffff;
+}
+
+#nav {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 39px;
+}
+
+#nav1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+}
+
+#nav2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#nav3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+#nav1 h3 {
+    border: 1.5px solid black;
+    border-radius: 40px;
+    padding: 3px 9px;
+    font-weight: 400;
+
+}
+
+#nav1 i {
+    border: 1.5px solid black;
+    border-radius: 40px;
+    padding: 3px 9px;
+    font-weight: 500;
+
+}
+#nav2 h3{
+    font-weight: 600;
+text-transform: uppercase;
+font-size: 25;
+}
+.btn{
+    padding: 6px 10px;
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #ffffff;
+}
+#btn2{
+    color: white;
+    background-color:orange;
+    border: none;
+}
+#main>h1{
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+ font-size: 120px;
+ font-weight: 150;
+ width: 100%;
+ text-align: center;
+}
+img{
+    height: 375px;
+    width: 310px;
+    object-position: top; /* to display top of the image*/
+    object-fit: cover; /* to balance image dimension in a img */
+    /*backgroung-fit:cover; used to balance bg image*/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 50px;
+    
+}
+#img1{
+    transform: translate(-50%,-50%) rotate(-30deg);/* have to write translate otherwize only roate will overwrite it. we need translate property in every image here.*/
+}
+#img2{transform: translate(-50%,-50%) rotate(-20deg);
+
+}
+#img3{transform: translate(-50%,-50%) rotate(-10deg);
+
+}
+#img4{transform: translate(-50%,-50%) ;
+}
+#btm-left{
+    position: absolute;
+    bottom: 4%;
+    left: 2%;
+    font-weight: 100;
+    font-size: 18px;
+}
+#main>i{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    font-size: 50px;
+    font-weight: 20;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 2px 2px;
+}
+#btmright{
+    position: absolute;
+    bottom: 4%;
+    right: 3%;
+}
+#btmright2{
+    font-size: 18px;
+font-weight: 100;
+}
